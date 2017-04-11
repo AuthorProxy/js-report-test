@@ -40,4 +40,5 @@ const template = {
 };
 
 renderExcelReport(template).then(() => console.log('RUNNING ONCE WAS OK')).catch((err) => console.log(err));
-//renderExcelReport(template).then(() => console.log('RUNNING TWICE WAS NOT OK')).catch((err) => console.log(err));
+// uncomment next line to recreate problem:
+// renderExcelReport(template).then(() => console.log('RUNNING TWICE WAS NOT OK')).catch((err) => console.log(err));
